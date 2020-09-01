@@ -10,6 +10,8 @@ import { TestimonialComponent } from './testimonial/testimonial.component';
 import { ClientComponent } from './client/client.component';
 import { PricingComponent } from './pricing/pricing.component';
 import { FooterComponent } from './footer/footer.component';
+import { HeaderComponent } from './header/header.component';
+import { NavigationComponent } from './navigation/navigation.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +22,9 @@ import { FooterComponent } from './footer/footer.component';
     TestimonialComponent,
     ClientComponent,
     PricingComponent,
-    FooterComponent
+    FooterComponent,
+    HeaderComponent,
+    NavigationComponent
   ],
   imports: [
     BrowserModule,
