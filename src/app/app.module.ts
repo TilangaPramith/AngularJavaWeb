@@ -11,8 +11,8 @@ import { ClientComponent } from './client/client.component';
 import { PricingComponent } from './pricing/pricing.component';
 import { FooterComponent } from './footer/footer.component';
 import { HeaderComponent } from './header/header.component';
-import { NavigationComponent } from './navigation/navigation.component';
-
+import { NavComponent } from './nav/nav.component';
+import { SocialComponent } from './social/social.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -24,7 +24,8 @@ import { NavigationComponent } from './navigation/navigation.component';
     PricingComponent,
     FooterComponent,
     HeaderComponent,
-    NavigationComponent
+    NavComponent,
+    SocialComponent,
   ],
   imports: [
     BrowserModule,
